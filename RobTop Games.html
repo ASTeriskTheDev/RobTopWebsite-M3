@@ -176,7 +176,11 @@ a {
 <meta name="savepage-comments" content="">
   </head>
 <body>
-    <div class="container">
+   <mdui-tabs value="tab-1">
+  <mdui-tab value="tab-1">Old</mdui-tab>
+  <mdui-tab value="tab-2">New (WIP)</mdui-tab>
+
+  <mdui-tab-panel slot="panel" value="tab-1"> <div class="container">
         <header>
             <img data-savepage-currentsrc="https://robtopgames.com/Images/underConstruction_001.png" data-savepage-src="Images/underConstruction_001.png" src="https://i.postimg.cc/K8SdCzwt/v882-aew-07.jpg" alt="Under Construction" class="logo">
             <div class="social-icons">
@@ -215,10 +219,12 @@ a {
                 </div>
             </div>
             <div class="video-policy">
-                <a href="http://robtopgames.com/youtube.html" style="color:white;">Video Policy</a>
+                <a href="http://asteroid-the-dev.github.io/RobTopWebsite-M3/RobTop%20Games%20(1).html" style="color:white;">Video Policy</a>
             </div>
         </footer>
-    </div>
+    </div></mdui-tab-panel>
+  <mdui-tab-panel slot="panel" value="tab-2">Panel 2</mdui-tab-panel>
+</mdui-tabs>
 
 
 </body></html>
